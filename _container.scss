@@ -1,0 +1,70 @@
+.container{
+ padding: 8rem;
+ display: flex;
+ justify-content: space-between;
+
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+
+ 
+}
+
+.container .box1{
+ display: flex;
+ flex: 1 1 30rem;
+ flex-direction: column;
+
+}
+
+
+.container .box1 .big-header h1{
+ color:hsl(300, 43%, 22%);
+ font-size:48px;
+ font-weight: 900;
+ font-family: 'Spartan', sans-serif;
+
+
+}
+
+.container .box1 .small-paragraph{
+ color:gray;
+ margin-top: 1rem;
+}
+
+.container .box2{
+ display: flex;
+ flex: 1 1 30rem;
+ flex-direction: column;
+
+ 
+}
+
+
+.container .box2 .paragraph{
+ margin-left: 3rem;
+ color:hsl(300, 43%, 22%);
+ font-weight: 900;
+}
+
+.container .box2 .first-box,
+.container .box2 .second-box,
+.container .box2 .third-box{
+ display: flex;
+ flex-direction: row;
+ margin-top: 2rem;
+ background-color: hsl(300, 24%, 96%);
+ padding: 1rem;
+ 
+}
+
+.container .box2 .first-box{
+ align-self: flex-start;
+}
+.container .box2 .second-box{
+ align-self: center;
+}
+
+.container .box2 .third-box{
+ align-self: flex-end;
+}

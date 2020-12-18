@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+@import "global";
+@import "container";
+@import "wrapper";
+@import "attr";
+
+
+@media all and (max-width:1346px){
+ .wrapper .wrap2{
+  transform: translateY(1rem);
+ }
+}
+
+@media all and (max-width:1199px){
+
+
+ .container .box2 .first-box,
+ .container .box2 .second-box,
+ .container .box2 .third-box{
+  width: 100%;
+  padding:2rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+ }
+
+}
+
+@media all and (max-width: 976px){
+ .wrapper .wrap{
+  width: 100%;
+ }
+ .wrapper .wrap{
+  margin-top:1rem;
+ }
+}
+
+@media all and (max-width:948px){
+ .container,
+ .wrapper{
+  padding:2rem;
+ }
+ .attribution{
+  margin-top:5rem;
+ }
+}
+
+
+
+
+
